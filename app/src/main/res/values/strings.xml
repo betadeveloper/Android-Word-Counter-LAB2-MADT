@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="characters_selection">Characters</string>
+    <string name="words_selection">Words</string>
+    <string-array name="selection_options">
+        <item>Characters</item>
+        <item>Words</item>
+    </string-array>
+</resources>
