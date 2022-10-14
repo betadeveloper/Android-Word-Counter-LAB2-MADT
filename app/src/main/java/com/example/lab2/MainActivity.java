@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 this.tvMain.setText("String is empty!");
                 Toast.makeText(this, "String is empty!", Toast.LENGTH_SHORT).show();
             } else {
-                String words = WordCounter.wordcount(userInputText);
+                String words = String.valueOf(WordCounter.wordcount(userInputText));
                 this.tvMain.setText(words);
             }
         }
